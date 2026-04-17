@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="it" data-theme="default">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methsala — Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Libre+Franklin:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <nav class="site-nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-brand">Methsala.</a>
+
+            <button class="nav-burger" id="navBurger" aria-label="Apri menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#bio">Bio</a></li>
+                <li><a href="#passioni">Passioni</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="./stage.html">Stage</a></li>
+                <li><a href="./extra.html">Extra</a></li>
+            </ul>
+
+            <button class="theme-toggle" id="themeToggle" aria-label="Cambia tema">🌙</button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-pattern"></div>
+        <div class="hero-blob hero-blob-1"></div>
+        <div class="hero-blob hero-blob-2"></div>
+
+        <div class="hero-content">
+            <span class="hero-label reveal">Classe 2023 — 2026</span>
+            <h1 class="reveal reveal-delay-1">Federico</h1>
+            <p class="hero-sub reveal reveal-delay-2">Operatore Informatico presso Immaginazione e Lavoro</p>
+            <div class="hero-cta reveal reveal-delay-3">
+                <a href="#cv" class="btn-primary-custom">Vai al CV ↓</a>
+                <a href="./doc/Cv.pdf" target="_blank" class="btn-outline-custom">Scarica PDF</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="bio">
+        <div class="section-container">
+            <div class="bio-grid">
+                <div class="bio-image reveal-left">
+                    <div class="bio-image-frame">
+                        <img src="./img/computer.jpeg" alt="Il mio setup">
+                    </div>
+                </div>
+                <div class="bio-text-area reveal-right">
+                    <div class="section-header">
+                        <span class="section-label">Chi sono</span>
+                        <h2 class="section-title">Ciao, sono Federico</h2>
+                    </div>
+                    <p>
+                        Sono uno studente di informatica con una forte passione per l'hardware. 
+                        Amo l'assemblaggio di PC: per me non è solo collegare componenti, ma ottimizzare 
+                        ogni dettaglio per ottenere le massime prestazioni e capire come i singoli chip interagiscano tra loro.
+                    </p>
+                    <p>
+                        Frequento il corso di Operatore Informatico presso Immaginazione e Lavoro e il mio 
+                        obiettivo è proseguire gli studi fino al quinto anno per ottenere il diploma. 
+                        Ho competenze base in programmazione e nell'uso del pacchetto Office.
+                    </p>
+                    <div class="bio-pills">
+                        <span class="bio-pill">🖥️ Hardware</span>
+                        <span class="bio-pill">🪟 Windows</span>
+                        <span class="bio-pill">📊 Office</span>
+                        <span class="bio-pill">💻 Programming</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="passioni">
+        <div class="section-container">
+            <div class="section-header center reveal">
+                <span class="section-label">Cosa mi appassiona</span>
+                <h2 class="section-title">Le mie Passioni</h2>
+                <p class="section-desc">Le cose che amo fare nel tempo libero e che mi definiscono</p>
+            </div>
+
+            <div class="passions-grid">
+
+                <div class="passion-card reveal reveal-delay-1">
+                    <div class="passion-card-img">
+                        <img src="./img/gaming.jpeg" alt="Gaming">
+                    </div>
+                    <div class="passion-card-body">
+                        <span class="passion-card-tag">Hobby</span>
+                        <h3>Gaming</h3>
+                        <p>Oltre a giocare, mi interessa l'ottimizzazione hardware e software per il gaming competitivo.</p>
+                    </div>
+                </div>
+
+                <div class="passion-card reveal reveal-delay-2">
+                    <div class="passion-card-img">
+                        <img src="./img/basket.jpg" alt="Basket">
+                    </div>
+                    <div class="passion-card-body">
+                        <span class="passion-card-tag">Sport</span>
+                        <h3>Basket</h3>
+                        <p>Il basket è la mia passione sportiva principale: mi ha insegnato la disciplina e il valore del lavoro di squadra.</p>
+                    </div>
+                </div>
+
+                <div class="passion-card reveal reveal-delay-3">
+                    <div class="passion-card-img">
+                        <img src="./img/esentials.jpeg" alt="Palestra">
+                    </div>
+                    <div class="passion-card-body">
+                        <span class="passion-card-tag">Tempo Libero</span>
+                        <h3>Musica & Palestra</h3>
+                        <p>Dedico il mio tempo libero all'allenamento in palestra ascoltando musica per ricaricare le energie.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="cv">
+        <div class="section-container">
+            <div class="section-header center reveal">
+                <span class="section-label">Il mio percorso</span>
+                <h2 class="section-title">Curriculum Vitae</h2>
+            </div>
+
+            <div class="cv-paper reveal">
+                <div class="cv-header">
+                    <div>
+                        <h2 class="cv-name">Federico</h2>
+                        <p class="cv-role">Operatore Informatico</p>
+                    </div>
+                    <div class="cv-contact-mini">
+                        <span>Via Oroboni 5, Milano</span>
+                        <span>+39 351 111 9550</span>
+                        <span>methsala.kariywasam@edu.immaginazioneelavoro.it</span>
+                    </div>
+                </div>
+
+                <div class="cv-section-title">Esperienza Lavorativa</div>
+
+                <div class="cv-entry">
+                    <span class="cv-entry-title">Stage</span>
+                    <span class="cv-entry-place"> · Prestige Group</span>
+                    <span class="cv-entry-date">Marzo 2024 — Maggio 2024</span>
+                    <p class="cv-entry-desc">Riparazione hardware · Gestione punto vendita · Installazione software.</p>
+                </div>
+
+                <div class="cv-section-title">Istruzione</div>
+
+                <div class="cv-entry">
+                    <span class="cv-entry-title">Operatore Informatico</span>
+                    <span class="cv-entry-place"> · Immaginazione e Lavoro IEFP</span>
+                    <span class="cv-entry-date">Settembre 2023 — Giugno 2026</span>
+                </div>
+
+                <div class="cv-section-title">Lingue</div>
+
+                <div class="cv-lang">
+                    <span class="cv-lang-name">Italiano</span>
+                    <div class="cv-lang-level">
+                        <div class="cv-lang-bar"><div class="cv-lang-bar-fill" style="width: 100%"></div></div>
+                        <span class="cv-lang-label">Madrelingua</span>
+                    </div>
+                </div>
+                <div class="cv-lang">
+                    <span class="cv-lang-name">Cingalese</span>
+                    <div class="cv-lang-level">
+                        <div class="cv-lang-bar"><div class="cv-lang-bar-fill" style="width: 100%"></div></div>
+                        <span class="cv-lang-label">Madrelingua</span>
+                    </div>
+                </div>
+                <div class="cv-lang">
+                    <span class="cv-lang-name">Inglese</span>
+                    <div class="cv-lang-level">
+                        <div class="cv-lang-bar"><div class="cv-lang-bar-fill" style="width: 85%"></div></div>
+                        <span class="cv-lang-label">Avanzato</span>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 2rem;" class="reveal">
+                <a href="./doc/Cv.pdf" target="_blank" class="btn-primary-custom">Scarica il CV →</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="section-container">
+            <div class="footer-grid">
+                <div>
+                    <p class="footer-brand">Federico</p>
+                    <p class="footer-desc">
+                        Operatore Informatico — Sito realizzato come progetto di fine percorso 
+                        presso Immaginazione e Lavoro.
+                    </p>
+                </div>
+                <div>
+                    <p class="footer-heading">Pagine</p>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="./stage.html">Stage</a></li>
+                        <li><a href="./extra.html">Extra</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="footer-heading">Contatti</p>
+                    <div class="footer-contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/></svg>
+                        <span>Via Oroboni 5, Milano</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0"/></svg>
+                        <span>+39 351 111 9550</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/></svg>
+                        <span>methsala.kariywasam@edu.immaginazioneelavoro.it</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span class="footer-copy">© 2026 Federico · Immaginazione e Lavoro</span>
+                <img src="./img/logo.webp" class="footer-logo" alt="Logo scuola">
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
